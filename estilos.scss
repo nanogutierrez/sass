@@ -86,9 +86,11 @@ main {
 }
 
 #precios h2 {
+    @extend .chocolates; 
     color: rgba(209, 81, 81, 0.696);
     background-color: rgb(247, 234, 234);
     transition: transform 0.3s;
+    
 }
 
 &:hover {
@@ -96,6 +98,7 @@ main {
 }
 
 #sucursales h2 {
+    @extend .budines;
     color: rgba(209, 81, 81, 0.696);
     background-color: rgb(247, 234, 234);
     transition: transform 0.3s;
@@ -106,6 +109,7 @@ main {
 }
 
 #contacto h2 {
+    @extend .tortas;
     color: rgba(209, 81, 81, 0.696);
     background-color: rgb(247, 234, 234);
     transition: transform 0.3s;
@@ -235,4 +239,20 @@ input:focus {
     max-width: 100%;
     background-color: rgba(172, 207, 158, 0.221);
     background-size: 100%;
+}
+$productos: (
+    tortas: red
+    tartas: blue
+    budines: yellow
+    chocolates:green
+);
+$borde: solid;
+$peso: bold;
+
+@each $tipodeproducto, $color in $productos {
+
+}
+    
+}
+    
 }
