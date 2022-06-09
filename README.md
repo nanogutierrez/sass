@@ -1,0 +1,1 @@
+# SASS 2 mas SEO: realice el mapa, el extend y el mixin de SASS 2 y en cuanto al SEO le agregue el meta data en el head sobre el hot sale y ademas cambie algunos titulos y le agregue keywords y descripciones a todas las imagenes.
