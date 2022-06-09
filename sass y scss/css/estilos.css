@@ -1,0 +1,237 @@
+/* line 1, ../../../../sass y scss/scss/estilos.scss */
+#titulo h1 {
+  color: #c27676;
+  font-size: 40px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+/* line 8, ../../../../sass y scss/scss/estilos.scss */
+#productos h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 14, ../../../../sass y scss/scss/estilos.scss */
+main {
+  display: flex;
+  flex: 1;
+  width: 2000px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 600px;
+  padding: 0.5em;
+}
+
+/* line 23, ../../../../sass y scss/scss/estilos.scss */
+#tortas {
+  color: #a36a6a;
+  transition: transform 0.3s;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+/* line 42, ../../../../sass y scss/scss/estilos.scss */
+#tartas {
+  color: #a36a6a;
+  transition: transform 0.3s;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+/* line 50, ../../../../sass y scss/scss/estilos.scss */
+#budines {
+  color: #a36a6a;
+  transition: transform 0.3s;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+/* line 59, ../../../../sass y scss/scss/estilos.scss */
+#chocolates {
+  color: #a36a6a;
+  transition: transform 0.3s;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+/* line 68, ../../../../sass y scss/scss/estilos.scss */
+#precios h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 75, ../../../../sass y scss/scss/estilos.scss */
+#sucursales h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 81, ../../../../sass y scss/scss/estilos.scss */
+#contacto h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 88, ../../../../sass y scss/scss/estilos.scss */
+#nosotros h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 95, ../../../../sass y scss/scss/estilos.scss */
+#asociate h2 {
+  color: rgba(209, 81, 81, 0.696);
+  background-color: #f7eaea;
+  transition: transform 0.3s;
+}
+
+/* line 102, ../../../../sass y scss/scss/estilos.scss */
+#imagen1 {
+  filter: blur(2px);
+  filter: grayscale(0.5);
+  transition: transform 0.3s;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* line 110, ../../../../sass y scss/scss/estilos.scss */
+#imagen2 {
+  filter: blur(2px);
+  filter: grayscale(0.5);
+  transition: transform 0.3s;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* line 118, ../../../../sass y scss/scss/estilos.scss */
+#imagen3 {
+  filter: blur(2px);
+  filter: grayscale(0.5);
+  transition: transform 0.3s;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* line 126, ../../../../sass y scss/scss/estilos.scss */
+#imagen4 {
+  filter: blur(2px);
+  filter: grayscale(0.5);
+  transition: transform 0.3s;
+  position: relative;
+  border-radius: 5px;
+}
+
+/* line 134, ../../../../sass y scss/scss/estilos.scss */
+header {
+  display: grid;
+  grid-area: encabezado;
+  background-image: url(https://images.aws.nestle.recipes/original/e89d19d331ac413811e3b1c11a893991_torta-princesa.jpg);
+  background-size: 100%;
+}
+
+/* line 141, ../../../../sass y scss/scss/estilos.scss */
+input[type=checkbox] {
+  transition: all 0.5s;
+}
+
+/* line 145, ../../../../sass y scss/scss/estilos.scss */
+input[type=checkbox]:checked {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 150, ../../../../sass y scss/scss/estilos.scss */
+input {
+  transition: all 0.5s;
+}
+
+/* line 154, ../../../../sass y scss/scss/estilos.scss */
+input:focus {
+  background-color: #d2e1ef;
+}
+
+/* line 158, ../../../../sass y scss/scss/estilos.scss */
+#main {
+  display: grid;
+  grid-area: cuerpo;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  max-width: 100%;
+  background-color: rgba(172, 207, 158, 0.221);
+  background-size: 100%;
+}
+
+/* line 178, ../../../../sass y scss/scss/estilos.scss */
+.btn-tortas {
+  background-color: #c34311;
+  border: solid 2px black;
+  padding: 8px;
+}
+
+/* line 178, ../../../../sass y scss/scss/estilos.scss */
+.btn-tartas {
+  background-color: #d2b99b;
+  border: solid 2px black;
+  padding: 8px;
+}
+
+/* line 178, ../../../../sass y scss/scss/estilos.scss */
+.btn-budines {
+  background-color: #dbec8f;
+  border: solid 2px black;
+  padding: 8px;
+}
+
+/* line 178, ../../../../sass y scss/scss/estilos.scss */
+.btn-chocolates {
+  background-color: #543222;
+  border: solid 2px black;
+  padding: 8px;
+}
+
+/* line 184, ../../../../sass y scss/scss/estilos.scss */
+.productos, .tortas {
+  background-color: #6db1c8;
+  font-size: 12px;
+}
+
+/* line 188, ../../../../sass y scss/scss/estilos.scss */
+.tortas {
+  padding: 50px;
+}
+
+/* line 202, ../../../../sass y scss/scss/estilos.scss */
+.nosotros {
+  height: 70px;
+  width: 300px;
+  border: solid 1px blue;
+}
+
+/* line 207, ../../../../sass y scss/scss/estilos.scss */
+p {
+  border: solid 1px blue;
+}
+
+/*# sourceMappingURL=estilos.css.map */
